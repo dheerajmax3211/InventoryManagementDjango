@@ -5,6 +5,8 @@ After setting up the virtual environment, preferable by the name venv, then star
 Commands to run the project: <br /><ul>
 <li> python -m pip install Django</li>
 <li>pip install django-crispy-for</li>
+ <li>python manage.py createsuperuser</li>
+ <li>When asked for username email and password, enter admin as username, admin@admin.com as email and enter admin as password.</li>
 <li>python manage.py makemigrations</li>
 <li>python manage.py migrate</li>
 <li>python manage.py runserver</li>
